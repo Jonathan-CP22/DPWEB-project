@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias-EsportX</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <style>
+        body {
+            background-color: black;
+            color: whitesmoke;
+        }
+        .news-card {
+            margin-bottom: 20px; 
+        }
+        .news-card img {
+            height: 150px;
+            object-fit: cover;
+        }
+        footer {
+            padding: 10px 0; 
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark p-3 mb-4">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">EsportsX</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav-menu">
+                <div class="navbar-nav ms-auto">
+                    <a href="index.html" class="nav-link active">Home</a>
+                    <a href="noticias.html" class="nav-link ">Notícias</a>
+                    <a href="partidas.html" class="nav-link ">Partidas</a>
+                    <a href="#" class="nav-link ">Torneios</a>
+                </div>
+            </div>
+        </div>               
+    </nav>
+    
+    <div class="container">
+        <h1 class="mb-4">Notícias</h1>
+        <div class="news-category text-center mb-4">
+            <button class="btn btn-dark" onclick="filterNews('valorant')">Valorant</button>
+            <button class="btn btn-dark" onclick="filterNews('cs2')">CS2</button>
+            <button class="btn btn-dark" onclick="filterNews('all')">Todas</button>
+        </div>
+
+        <div class="row" id="news-container">
+            <!-- Valorant Notícias -->
+            <div class="col-md-4 news-card" data-category="valorant">
+                <div class="card bg-dark text-white">
+                    <img src="imgs/valorant.jpg" class="card-img-top" alt="Valorant">
+                    <div class="card-body">
+                        <h5 class="card-title">Campeonato Valorant Masters</h5>
+                        <p class="card-text">Confira os preparativos para o maior evento de Valorant do ano.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 news-card" data-category="valorant">
+                <div class="card bg-dark text-white">
+                    <img src="imgs/valorant2.jpg" class="card-img-top" alt="Valorant Update">
+                    <div class="card-body">
+                        <h5 class="card-title">Atualização de Agentes</h5>
+                        <p class="card-text">Nova atualização traz mudanças significativas nos agentes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 news-card" data-category="valorant">
+                <div class="card bg-dark text-white">
+                    <img src="imgs/valorant3.jpg" class="card-img-top" alt="Valorant Tournament">
+                    <div class="card-body">
+                        <h5 class="card-title">Torneio Regional de Valorant</h5>
+                        <p class="card-text">As equipes se enfrentam pelo título de campeã regional.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 news-card" data-category="valorant">
+                <div class="card bg-dark text-white">
+                    <img src="imgs/valorant4.jpg" class="card-img-top" alt="Valorant Esports">
+                    <div class="card-body">
+                        <h5 class="card-title">Novo Circuito Profissional</h5>
+                        <p class="card-text">Riot Games anuncia mudanças no formato competitivo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 news-card" data-category="valorant">
+                <div class="card bg-dark text-white">
+                    <img src="imgs/valorant5.jpg" class="card-img-top" alt="Valorant Patch Notes">
+                    <div class="card-body">
+                        <h5 class="card-title">Notas do Patch 7.01</h5>
+                        <p class="card-text">Confira as principais alterações no novo patch.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 news-card" data-category="valorant">
+                <div class="card bg-dark text-white">
+                    <img src="imgs/valorant6.jpg" class="card-img-top" alt="Valorant Pro Tips">
+                    <div class="card-body">
+                        <h5 class="card-title">Dicas de Profissionais</h5>
+                        <p class="card-text">Melhore sua gameplay com dicas de jogadores profissionais.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- CS2 Notícias -->
+            <div class="col-md-4 news-card" data-category="cs2">
+                <div class="card bg-dark text-white">
+                    <img src="imgs/cs2.jpg" class="card-img-top" alt="CS2">
+                    <div class="card-body">
+                        <h5 class="card-title">Atualização do CS2</h5>
+                        <p class="card-text">Mudanças no mapa Dust2 trazem novas estratégias.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 news-card" data-category="cs2">
+                <div class="card bg-dark text-white">
+                    <img src="imgs/cs2-tournament.jpg" class="card-img-top" alt="CS2 Tournament">
+                    <div class="card-body">
+                        <h5 class="card-title">CS2 Major Confirmado</h5>
+                        <p class="card-text">Próximo Major acontece em dezembro com premiação recorde.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 news-card" data-category="cs2">
+                <div class="card bg-dark text-white">
+                    <img src="imgs/cs2-players.jpg" class="card-img-top" alt="CS2 Players">
+                    <div class="card-body">
+                        <h5 class="card-title">Novos Jogadores na Cena</h5>
+                        <p class="card-text">Revelação de talentos em torneios locais.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 news-card" data-category="cs2">
+                <div class="card bg-dark text-white">
+                    <img src="imgs/cs2-maps.jpg" class="card-img-top" alt="CS2 Maps">
+                    <div class="card-body">
+                        <h5 class="card-title">Rotação de Mapas</h5>
+                        <p class="card-text">Novos mapas entram para a lista competitiva.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 news-card" data-category="cs2">
+                <div class="card bg-dark text-white">
+                    <img src="imgs/cs2-coaching.jpg" class="card-img-top" alt="CS2 Coaching">
+                    <div class="card-body">
+                        <h5 class="card-title">Treinadores Compartilham Estratégias</h5>
+                        <p class="card-text">Técnicas avançadas para equipes profissionais.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 news-card" data-category="cs2">
+                <div class="card bg-dark text-white">
+                    <img src="imgs/cs2-gear.jpg" class="card-img-top" alt="CS2 Gear">
+                    <div class="card-body">
+                        <h5 class="card-title">Equipamentos para Pro Players</h5>
+                        <p class="card-text">Saiba quais periféricos os melhores jogadores utilizam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <footer class="bg-dark text-white mt-4">
+        <div class="container-fluid">
+            <div class="row text-center py-3">
+                <div class="col">
+                    <p>© 2024 EsportX. Todos os direitos reservados.</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="text-white mx-2">
+                            <i class="bi bi-facebook" style="font-size: 1.5rem;"></i>
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="text-white mx-2">
+                            <i class="bi bi-instagram" style="font-size: 1.5rem;"></i>
+                        </a>
+                        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" class="text-white mx-2">
+                            <i class="bi bi-twitter" style="font-size: 1.5rem;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script>
+        function filterNews(category) {
+            const cards = document.querySelectorAll('.news-card');
+            cards.forEach(card => {
+                if (category === 'all' || card.getAttribute('data-category') === category) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+    
+</body>
+</html> 
