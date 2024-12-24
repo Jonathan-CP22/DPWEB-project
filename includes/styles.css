@@ -1,0 +1,44 @@
+body {
+    background-color: #121212;
+    color: whitesmoke;
+}
+
+.logo-site {
+    height: 50px;
+    max-width: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.logo-site:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+/* links de navegação */
+.nav-link {
+    position: relative;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color:hsl(213, 4.50%, 48.40%);
+    color: white;
+}
+
+.filter-btn {
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.filter-btn.active, .filter-btn:hover {
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+}
