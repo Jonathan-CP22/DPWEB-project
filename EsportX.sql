@@ -1,4 +1,5 @@
 
+
 -- Dumping database structure for esportsx
 CREATE DATABASE IF NOT EXISTS `esportsx` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `esportsx`;
@@ -21,12 +22,12 @@ CREATE TABLE IF NOT EXISTS `eventos` (
 INSERT INTO `eventos` (`id`, `nome`, `data`, `local`, `premio`, `categoria`, `status`, `img`) VALUES
 	(1, 'Campeonato Mundial de CS2	', '2024-12-12', 'Alemanha', '$1,000,000', 'cs2', 'completo', '1.jpg'),
 	(2, 'Valorant Underground: LATAM South', '2024-12-03', 'LATAM South', '$2,500', 'valorant', 'completo', '2.png'),
-	(3, 'Riot Games ONE PRO INVITATIONAL 2024', '2024-12-25', 'K Arena', '$200,000', 'valorant', 'incompleto', '3.png'),
-	(4, 'Saudi eLeague 2024 - Championship', '2024-12-24', ' SEF Arena', 'SAR 400,000', 'valorant', 'incompleto', '4.png'),
+	(3, 'Riot Games ONE PRO INVITATIONAL 2024', '2025-06-25', 'K Arena', '$200,000', 'valorant', 'incompleto', '3.png'),
+	(4, 'Saudi eLeague 2024 - Championship', '2025-05-24', ' SEF Arena', 'SAR 400,000', 'valorant', 'incompleto', '4.png'),
 	(5, 'ESL Pro League Season 20\n\n', '2024-04-25', 'Alemanha', '$850,000', 'cs2', 'completo', '5.png'),
 	(6, 'Blast Premier Spring Final\n\n', '2024-03-13', 'Portugal', '$500,000', 'cs2', 'completo', '6.png'),
 	(7, 'PGL Major Copenhagen\n\n', '2024-06-15', 'Dinamarca', ' $1,000,000', 'cs2', 'completo', '7.jpeg'),
-	(8, 'IEM Katowice\n\n', '2024-12-26', 'Katowice', '$1,250,000', 'cs2', 'incompleto', '8.png'),
+	(8, 'IEM Katowice\n\n', '2025-01-26', 'Katowice', '$1,250,000', 'cs2', 'incompleto', '8.png'),
 	(9, 'DreamHack Open\n\n', '2025-01-13', 'EUA', '$200,000', 'cs2', 'incompleto', '9.png'),
 	(10, 'Gamers Without Borders', '2025-01-24', 'Reino Unido', '$150,000', 'cs2', 'incompleto', '10.jpg'),
 	(11, 'Red Bull Home Ground\n\n', '2024-10-13', 'Berlim', '$200,000', 'valorant', 'completo', '11.png');
@@ -73,14 +74,14 @@ CREATE TABLE IF NOT EXISTS `partidas` (
 -- Dumping data for table esportsx.partidas: 8 rows
 /*!40000 ALTER TABLE `partidas` DISABLE KEYS */;
 INSERT INTO `partidas` (`id`, `data`, `hora`, `timeA`, `timeB`, `logoA`, `logoB`, `categoria`) VALUES
-	(1, '2024-12-07', '15:50:00', 'Liquid', 'Natus Vincere', 'logo1.jpg', 'logo2.jpg', 'cs2'),
-	(3, '2024-12-08', '20:50:27', 'Furia', 'G2', 'logo3.jpg', 'logo4.jpg', 'cs2'),
-	(4, '2024-12-07', '21:25:12', 'LOUD', ' Fnatic', 'logo9.png', 'logo10.png', 'valorant'),
-	(5, '2024-12-15', '21:29:42', 'Sentinels', 'DRX', 'logo11.png', 'logo12.png', 'valorant'),
-	(6, '2025-01-12', '20:17:37', 'Ascend', 'Playmaster', 'logo5.jpg', 'logo6.png', 'cs2'),
-	(7, '2024-12-09', '20:23:13', 'Doomeo', 'Nivux', 'logo7.jpg', 'logo8.jpg', 'cs2'),
-	(8, '2024-12-26', '11:40:33', 'ZETA DIVISION', 'FOKUS', 'logo13.png', 'logo14.png', 'valorant'),
-	(9, '2024-12-27', '11:43:53', 'Detonantion', 'Leviatán', 'logo15.png', 'logo16.png', 'valorant');
+	(1, '2025-02-07', '15:50:00', 'Liquid', 'Natus Vincere', 'logo1.jpg', 'logo2.jpg', 'cs2'),
+	(3, '2025-04-08', '20:50:27', 'Furia', 'G2', 'logo3.jpg', 'logo4.jpg', 'cs2'),
+	(4, '2025-03-07', '21:25:12', 'LOUD', ' Fnatic', 'logo9.png', 'logo10.png', 'valorant'),
+	(5, '2025-02-15', '21:29:42', 'Sentinels', 'DRX', 'logo11.png', 'logo12.png', 'valorant'),
+	(6, '2025-01-15', '20:17:37', 'Ascend', 'Playmaster', 'logo5.jpg', 'logo6.png', 'cs2'),
+	(7, '2025-02-09', '20:23:13', 'Doomeo', 'Nivux', 'logo7.jpg', 'logo8.jpg', 'cs2'),
+	(8, '2025-01-26', '11:40:33', 'ZETA DIVISION', 'FOKUS', 'logo13.png', 'logo14.png', 'valorant'),
+	(9, '2025-04-27', '11:43:53', 'Detonantion', 'Leviatán', 'logo15.png', 'logo16.png', 'valorant');
 /*!40000 ALTER TABLE `partidas` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
