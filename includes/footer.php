@@ -14,7 +14,6 @@
                     <li><a href="noticias.php" class="text-white-50 text-decoration-none">Notícias</a></li>
                     <li><a href="eventos.php" class="text-white-50 text-decoration-none">Eventos</a></li>
                     <li><a href="partidas.php" class="text-white-50 text-decoration-none">Partidas</a></li>
-                    <li><a href="contacto.php" class="text-white-50 text-decoration-none">Contato</a></li>
                 </ul>
             </div>
 
@@ -37,7 +36,7 @@
         <hr class="bg-secondary mt-4 mb-2">
 
         <div class="text-center small text-white-50">
-            Desenvolvido por <a href="about.php" class="text-white text-decoration-none fw-bold">EsportX Team</a>.
+            Desenvolvido por EsportX Team.
         </div>
     </div>
 </footer>
