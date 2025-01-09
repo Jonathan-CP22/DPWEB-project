@@ -43,7 +43,7 @@
         <!-- Partidas -->
         <div class="row">
             <?php
-            $sql = 'SELECT * FROM partidas ORDER BY data, hora';
+            $sql = 'SELECT * FROM partidas WHERE data >= CURDATE() ORDER BY data, hora';
             $stmt = $dbh->prepare($sql);
             $stmt->execute();
 
