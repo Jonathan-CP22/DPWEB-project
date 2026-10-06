@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="qreq-LWW2cbXoTFMynUi">
+    <mxGraphModel dx="1029" dy="1720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LbkpaTytyVq308KBr7Zb-3" parent="1" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#6D1F00;fillColor=#a0522d;fontColor=#ffffff;strokeWidth=2;perimeterSpacing=2;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="388" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="LbkpaTytyVq308KBr7Zb-5" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/font-awesome/1/B.svg" value="" vertex="1">
+          <mxGeometry height="172" width="107.5" x="61.25" y="-362" as="geometry" />
+        </mxCell>
+        <mxCell id="LbkpaTytyVq308KBr7Zb-6" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/font-awesome/1/H.svg;direction=west;" value="" vertex="1">
+          <mxGeometry height="150" width="112.5" x="150" y="-250" as="geometry" />
+        </mxCell>
+        <mxCell id="LbkpaTytyVq308KBr7Zb-8" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/tabler-outline/1/Circle_Letter_B.svg" value="" vertex="1">
+          <mxGeometry height="200" width="200" x="600" y="-218" as="geometry" />
+        </mxCell>
+        <mxCell id="LbkpaTytyVq308KBr7Zb-10" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/health-icons-filled/1/A.svg" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="448" y="-438" as="geometry" />
+        </mxCell>
+        <mxCell id="LbkpaTytyVq308KBr7Zb-11" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/health-icons-filled/1/B.svg" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="152" y="-576" as="geometry" />
+        </mxCell>
+        <mxCell id="LbkpaTytyVq308KBr7Zb-12" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/health-icons-filled/1/S.svg" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="230" y="-576" as="geometry" />
+        </mxCell>
+        <mxCell id="LbkpaTytyVq308KBr7Zb-13" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/tabler-outline/1/Letter_K.svg" value="" vertex="1">
+          <mxGeometry height="42" width="42" x="268" y="-573" as="geometry" />
+        </mxCell>
+        <mxCell id="LbkpaTytyVq308KBr7Zb-14" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/health-icons-filled/1/E.svg" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="300" y="-576" as="geometry" />
+        </mxCell>
+        <mxCell id="LbkpaTytyVq308KBr7Zb-15" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/health-icons-filled/1/T.svg" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="330" y="-576" as="geometry" />
+        </mxCell>
+        <mxCell id="LbkpaTytyVq308KBr7Zb-16" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/material-symbols/1/H_Mobiledata.svg" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="150" y="-530" as="geometry" />
+        </mxCell>
+        <mxCell id="LbkpaTytyVq308KBr7Zb-17" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/health-icons-filled/1/U.svg" value="" vertex="1">
+          <mxGeometry height="42" width="42" x="397" y="-432" as="geometry" />
+        </mxCell>
+        <mxCell id="LbkpaTytyVq308KBr7Zb-18" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/health-icons-filled/1/B.svg" value="" vertex="1">
+          <mxGeometry height="48" width="48" x="230" y="-525" as="geometry" />
+        </mxCell>
+        <mxCell id="LbkpaTytyVq308KBr7Zb-20" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.basketball;" value="" vertex="1">
+          <mxGeometry height="32" width="30" x="200" y="-568" as="geometry" />
+        </mxCell>
+        <mxCell id="LbkpaTytyVq308KBr7Zb-22" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Laundry_time-2823/clothes_basket-682.svg" value="" vertex="1">
+          <mxGeometry height="78" width="78" x="680" y="-440" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
